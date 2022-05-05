@@ -1,1 +1,5 @@
-<p>navbar works!</p>
+<nav *ngFor="let section of sections">
+  <button (click)="jump(section.jumpName)">{{ section.displayedName }}</button>
+</nav>
+
+<div #target>Jump target</div>
