@@ -1,4 +1,5 @@
 <h2 #proj id="proj">Projects</h2>
-<div *ngFor="let project of projects">
-  <app-project [project]="project"></app-project>
+<div>{{ projects }}</div>
+<div *ngFor="let p of projects">
+  <app-project [project]="p"></app-project>
 </div>
