@@ -12,6 +12,9 @@ div.item * {
   margin-bottom: 0;
 }
 
+div.item h1 {
+  font-weight: bold;
+}
 div.item h2 {
   font-weight: normal;
 }
