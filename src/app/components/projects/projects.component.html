@@ -1,4 +1,12 @@
-<h2 id="proj">Projects</h2>
-<div *ngFor="let p of projects">
-  <app-project [project]="p"></app-project>
+<div id="proj" class="section">
+  <div class="content">
+    <h1 class="section-title">Projects</h1>
+    <div *ngFor="let p of projects">
+      <div class="item">
+        <h1>{{ p.name }}</h1>
+        <p class="tech">{{ formatTech(p.technologies) }}</p>
+        <p>{{ p.description }}</p>
+      </div>
+    </div>
+  </div>
 </div>

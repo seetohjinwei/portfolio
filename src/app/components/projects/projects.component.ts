@@ -13,4 +13,14 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = projects;
 
   ngOnInit(): void {}
+
+  formatTech(tech: string[]): string {
+    const prefix: string = 'built with';
+    const length: number = tech.length;
+    if (length == 1) {
+      return `${prefix} ${tech[0]}`;
+    }
+    const front: string[] = tech.slice(0, -1);
+    return `${prefix} ${front.join(', ')} and ${tech[length - 1]}`;
+  }
 }

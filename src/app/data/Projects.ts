@@ -3,8 +3,8 @@ import Project from '../interfaces/IProject';
 
 export const projects: Project[] = [
   {
-    name: 'Orbital',
-    technologies: ['React', 'Go Gin', 'Telegram Bot'],
+    name: 'OrgaNiUS',
+    technologies: ['React', 'Go', 'Telegram API'],
     description:
       'Project Management application that has web and telegram interfaces designed for managing both group and individual projects. Frontend designed with React, backend designed with Go Gin.',
   },
