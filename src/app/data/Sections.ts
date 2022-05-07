@@ -2,15 +2,18 @@ import Section from '../interfaces/ISection';
 
 export const sections: Section[] = [
   {
-    displayedName: 'Education',
+    longName: 'Education',
+    shortName: 'Education',
     jumpName: 'edu',
   },
   {
-    displayedName: 'Notable Projects',
+    longName: 'Notable Projects',
+    shortName: 'Projects',
     jumpName: 'proj',
   },
   {
-    displayedName: 'Skills & Technologies',
+    longName: 'Skills & Technologies',
+    shortName: 'Skills',
     jumpName: 'skills',
   },
 ];

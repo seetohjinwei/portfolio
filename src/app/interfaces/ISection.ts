@@ -1,4 +1,5 @@
 export default interface Section {
-  displayedName: string;
+  longName: string;
+  shortName: string;
   jumpName: string;
 }

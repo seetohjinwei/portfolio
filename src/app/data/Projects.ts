@@ -1,4 +1,5 @@
 import Project from '../interfaces/IProject';
+// TODO: add links to github/website
 
 export const projects: Project[] = [
   {
