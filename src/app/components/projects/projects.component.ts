@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Project from 'src/app/interfaces/IProject';
 import { projects } from '../../data/Projects';
 
 @Component({
@@ -9,7 +10,7 @@ import { projects } from '../../data/Projects';
 export class ProjectsComponent implements OnInit {
   constructor() {}
 
-  projects = projects;
+  projects: Project[] = projects;
 
   ngOnInit(): void {}
 }

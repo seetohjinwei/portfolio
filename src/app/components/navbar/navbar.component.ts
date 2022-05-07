@@ -15,9 +15,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {}
 
   jump(jumpName: string): void {
-    const element: HTMLElement = document.getElementById(
-      jumpName
-    ) as HTMLElement;
+    const element: HTMLElement | null = document.getElementById(jumpName);
     if (element === null) {
       console.log('Invalid jump point:', jumpName);
       return;
