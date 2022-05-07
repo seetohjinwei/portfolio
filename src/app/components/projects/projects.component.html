@@ -4,7 +4,7 @@
     <div *ngFor="let p of projects">
       <div class="item">
         <h1>{{ p.name }}</h1>
-        <p class="tech">{{ formatTech(p.technologies) }}</p>
+        <p class="tech">{{ formatTech.transform(p.technologies) }}</p>
         <p>{{ p.description }}</p>
       </div>
     </div>

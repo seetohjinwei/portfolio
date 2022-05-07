@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import Project from 'src/app/interfaces/IProject';
 import { projects } from '../../data/Projects';
+import { TransformTechPipe } from './transform-tech.pipe';
 
 @Component({
   selector: 'app-projects',
@@ -10,17 +11,8 @@ import { projects } from '../../data/Projects';
 export class ProjectsComponent implements OnInit {
   constructor() {}
 
+  formatTech = new TransformTechPipe();
   projects: Project[] = projects;
 
   ngOnInit(): void {}
-
-  formatTech(tech: string[]): string {
-    const prefix: string = 'built with';
-    const length: number = tech.length;
-    if (length == 1) {
-      return `${prefix} ${tech[0]}`;
-    }
-    const front: string[] = tech.slice(0, -1);
-    return `${prefix} ${front.join(', ')} and ${tech[length - 1]}`;
-  }
 }
