@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { sections } from 'src/app/data/Sections';
-import Section from 'src/app/interfaces/ISection';
+
+interface Section {
+  shortName: string;
+  jumpName: string;
+}
 
 @Component({
   selector: 'app-navbar',
@@ -10,7 +13,24 @@ import Section from 'src/app/interfaces/ISection';
 export class NavbarComponent implements OnInit {
   constructor() {}
 
-  sections: Section[] = sections;
+  sections: Section[] = [
+    {
+      shortName: 'About',
+      jumpName: 'about',
+    },
+    {
+      shortName: 'Education',
+      jumpName: 'edu',
+    },
+    {
+      shortName: 'Projects',
+      jumpName: 'proj',
+    },
+    {
+      shortName: 'Skills',
+      jumpName: 'skills',
+    },
+  ];
 
   ngOnInit(): void {}
 
