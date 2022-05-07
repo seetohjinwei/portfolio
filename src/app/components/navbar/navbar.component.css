@@ -1,0 +1,8 @@
+div.links {
+  display: flex;
+  font-size: 1.5em;
+}
+
+div.item {
+  display: flex;
+}

@@ -1,3 +1,8 @@
-<nav *ngFor="let section of sections">
-  <button (click)="jump(section.jumpName)">{{ section.shortName }}</button>
-</nav>
+<div class="links">
+  <div *ngFor="let section of sections; last as isLast" class="item">
+    <div class="link" (click)="jump(section.jumpName)">
+      {{ section.shortName }}
+    </div>
+    <div *ngIf="!isLast">&nbsp;|&nbsp;</div>
+  </div>
+</div>
