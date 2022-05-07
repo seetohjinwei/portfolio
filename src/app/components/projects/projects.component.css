@@ -26,3 +26,9 @@ div.item p {
   text-align: justify;
   font-size: 1.2em;
 }
+
+.logo {
+  margin-right: 0.5em;
+  height: 2em;
+  width: 2em;
+}
