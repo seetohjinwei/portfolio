@@ -28,7 +28,12 @@ div.item p {
 }
 
 .logo {
-  margin-right: 0.5em;
   height: 2em;
+  margin-right: 0.5em;
+  opacity: 0.7;
   width: 2em;
+}
+
+.logo:hover {
+  opacity: 1;
 }

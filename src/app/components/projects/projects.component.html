@@ -8,7 +8,7 @@
         <p>{{ p.description }}</p>
         <a *ngIf="p.repo !== undefined" href="{{ p.repo }}" target="_blank">
           <img
-            alt="Repository"
+            alt="Repository Link"
             class="logo"
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
           />
@@ -19,6 +19,7 @@
           target="_blank"
         >
           <svg
+            alt="Website Link"
             class="logo"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
