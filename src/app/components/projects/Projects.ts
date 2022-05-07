@@ -6,8 +6,6 @@ export interface Project {
   website?: string;
 }
 
-// TODO: add links to github/website
-
 export const projects: Project[] = [
   {
     name: 'OrgaNiUS',
