@@ -3,7 +3,7 @@ div.content {
   display: flex;
   flex-direction: column;
   margin: 1em;
-  width: 60%;
+  width: 40%;
 }
 
 div.name-box {
@@ -30,4 +30,5 @@ div.vl {
 
 p {
   text-align: justify;
+  font-size: larger;
 }
