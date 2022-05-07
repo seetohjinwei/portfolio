@@ -1,0 +1,36 @@
+div#about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div#content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  max-width: 70%;
+}
+
+div.name-box {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+div#name {
+  display: flex;
+  font-size: 5vw;
+}
+
+span.surname {
+  font-weight: bold;
+}
+
+div.vl {
+  border-left: 0.3em solid black;
+  height: 6vw;
+  margin-bottom: 1vw;
+  margin-left: 3vw;
+}

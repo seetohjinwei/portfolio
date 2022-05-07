@@ -2,6 +2,11 @@ import Section from '../interfaces/ISection';
 
 export const sections: Section[] = [
   {
+    longName: 'About',
+    shortName: 'About',
+    jumpName: 'about',
+  },
+  {
     longName: 'Education',
     shortName: 'Education',
     jumpName: 'edu',
