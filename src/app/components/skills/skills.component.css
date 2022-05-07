@@ -1,0 +1,32 @@
+div.content {
+  margin: 1em;
+  text-align: right;
+  width: 60%;
+}
+
+div.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 20vw);
+  row-gap: 1em;
+}
+
+div.item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+div.item * {
+  margin-bottom: 0;
+}
+
+div.item p {
+  font-size: 1.2em;
+}
+
+div.item img.logo {
+  height: 5em;
+  width: 5em;
+}
