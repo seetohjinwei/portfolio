@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Project, projects } from '../../data/Projects';
+import { Project, projects } from './Projects';
 import { TransformTechPipe } from './transform-tech.pipe';
 
 @Component({
