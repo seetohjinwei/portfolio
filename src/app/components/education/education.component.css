@@ -1,0 +1,25 @@
+div.content {
+  text-align: right;
+  width: 60%;
+}
+
+div.item {
+  margin-bottom: 1em;
+}
+
+div.item * {
+  margin-bottom: 0;
+}
+
+div.item h2 {
+  font-weight: normal;
+}
+
+div.item h3 {
+  opacity: 0.7;
+  font-size: 1.2em;
+}
+
+div.item p {
+  font-size: 1.2em;
+}
