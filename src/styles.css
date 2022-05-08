@@ -10,6 +10,7 @@ body {
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
+  scroll-snap-type: y proximity;
 }
 
 div.section {
@@ -18,6 +19,7 @@ div.section {
   flex-direction: column;
   height: 100vh;
   padding-top: 3em;
+  scroll-snap-align: start;
   width: 100vw;
 }
 
