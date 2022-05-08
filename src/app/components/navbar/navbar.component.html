@@ -1,8 +1,6 @@
 <div class="links">
   <div *ngFor="let section of sections; last as isLast" class="item">
-    <div class="link" (click)="jump(section.jumpName)">
-      {{ section.shortName }}
-    </div>
+    <a class="link" href="#{{ section.jumpName }}">{{ section.shortName }}</a>
     <div *ngIf="!isLast">&nbsp;|&nbsp;</div>
   </div>
 </div>
