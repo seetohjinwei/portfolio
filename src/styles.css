@@ -1,6 +1,9 @@
 html,
 body {
   height: 100%;
+  /* overflow-x to prevent horizontal scrolling */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   width: 100%;
 }
 
