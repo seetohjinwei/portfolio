@@ -1,8 +1,6 @@
 html,
 body {
   height: 100%;
-  /* overflow-x to prevent horizontal scrolling */
-  overflow-x: hidden;
   scroll-behavior: smooth;
   width: 100%;
 }
@@ -17,10 +15,10 @@ div.section {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   padding-top: 3em;
   scroll-snap-align: start;
-  width: 100vw;
+  width: 100%;
 }
 
 h1.section-title {

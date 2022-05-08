@@ -17,7 +17,7 @@ div.name-box {
 
 div#name {
   display: flex;
-  font-size: 5vw;
+  font-size: 5vmax;
 }
 
 span.surname {
@@ -26,9 +26,9 @@ span.surname {
 
 div.vl {
   border-left: 0.3em solid black;
-  height: 6vw;
-  margin-bottom: 1vw;
-  margin-left: 3vw;
+  height: 15vh;
+  margin-bottom: 1vh;
+  margin-left: 3vh;
 }
 
 p {
