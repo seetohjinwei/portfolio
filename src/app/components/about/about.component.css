@@ -20,10 +20,6 @@ div#name {
   font-size: 5vmax;
 }
 
-span.surname {
-  font-weight: bold;
-}
-
 div.vl {
   border-left: 0.3em solid black;
   height: 15vh;
