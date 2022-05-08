@@ -2,12 +2,14 @@ div#social {
   text-align: center;
 }
 
-svg.social {
+img.logo {
+  height: 2em;
+  opacity: 0.7;
   padding-left: 3px;
   padding-right: 3px;
-  opacity: 0.7;
+  width: 2em;
 }
 
-svg.social:hover {
+img.logo:hover {
   opacity: 1;
 }
