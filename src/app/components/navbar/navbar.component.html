@@ -1,6 +1,7 @@
 <div class="links">
   <div *ngFor="let section of sections; last as isLast" class="item">
-    <div class="link" (click)="jump(section.jumpName)">
+    <!-- tabindex allows the div to be "tabbable" -->
+    <div class="link" tabindex="0" (click)="jump(section.jumpName)">
       {{ section.shortName }}
     </div>
     <div *ngIf="!isLast">&nbsp;|&nbsp;</div>
