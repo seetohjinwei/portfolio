@@ -26,6 +26,7 @@ export const projects: Project[] = [
     description:
       'Personal portfolio website built with Angular, the website you are currently on!',
     repo: 'https://github.com/seetohjinwei/portfolio',
+    website: 'https://seetohjinwei.github.io/portfolio/',
   },
   {
     name: 'Retyper',
