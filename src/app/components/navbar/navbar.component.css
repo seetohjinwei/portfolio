@@ -1,7 +1,7 @@
 div.links {
   display: flex;
   font-size: 1.5em;
-  padding: 1em 0 1em 0;
+  margin: 1em 0 1em 0;
 }
 
 div.item {

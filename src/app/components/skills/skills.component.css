@@ -14,8 +14,8 @@ div.item {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
   flex-wrap: wrap;
+  margin-bottom: 3em;
 }
 
 div.item * {

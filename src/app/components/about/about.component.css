@@ -1,5 +1,5 @@
 #about {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 div.content {
@@ -24,7 +24,7 @@ div.vl {
   border-left: 0.3em solid black;
   height: 15vh;
   margin-bottom: 1vh;
-  margin-left: 3vh;
+  margin-left: 3vw;
 }
 
 p {
