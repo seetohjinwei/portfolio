@@ -28,5 +28,6 @@ div.item p {
 
 div.item img.logo {
   height: 5em;
+  margin-bottom: 1em;
   width: 5em;
 }
