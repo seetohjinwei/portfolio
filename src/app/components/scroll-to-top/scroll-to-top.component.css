@@ -1,7 +1,9 @@
 div#scroller {
   bottom: 3em;
   cursor: pointer;
-  height: 3em;
+  /* use px to be able to detect change */
+  /* must change in scroll-to-top.component.ts as well! */
+  height: 50px;
   position: fixed;
   right: 4em;
   width: 3em;
@@ -13,10 +15,16 @@ div#scroller {
 
 img.up-arrow {
   height: 3em;
-  width: 3em;
   opacity: 0.7;
+  transition: filter 0.4s linear;
+  width: 3em;
 }
 
 img.up-arrow:hover {
   opacity: 1;
+}
+
+img.up-arrow-inverted {
+  filter: invert(100%);
+  transition: filter 0.4s linear;
 }
