@@ -30,6 +30,10 @@ export class NavbarComponent implements OnInit {
       shortName: 'Skills',
       jumpName: 'skills',
     },
+    {
+      shortName: 'Contact',
+      jumpName: 'contact',
+    },
   ];
 
   ngOnInit(): void {}
