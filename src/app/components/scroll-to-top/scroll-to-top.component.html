@@ -1,8 +1,9 @@
 <div id="scroller" *ngIf="hasScrolled" tabindex="0" (click)="jumpTop()">
   <img
+    [ngClass]="{ 'up-arrow-inverted': onContact }"
     alt="Up arrow to scroll to top"
     class="up-arrow"
-    [ngClass]="{ 'up-arrow-inverted': onContact }"
+    matTooltip="To Top"
     src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Font_Awesome_5_solid_arrow-circle-up.svg"
   />
 </div>

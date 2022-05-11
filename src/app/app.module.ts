@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
 
 import { AboutComponent } from './components/about/about.component';
@@ -27,7 +28,12 @@ import { TransformTechPipe } from './components/projects/transform-tech.pipe';
     SocialComponent,
     TransformTechPipe,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTooltipModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
