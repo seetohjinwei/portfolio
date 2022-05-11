@@ -26,6 +26,8 @@ img.up-arrow:hover {
 }
 
 img.up-arrow-inverted {
-  filter: invert(100%) drop-shadow(2px 4px 8px white);
+  /* multiple filters seems to have a weird effect with transitions */
+  /* putting invert after drop-shadow seems to fix this on Chrome and Firefox (but not Safari) I didn't test on others */
+  filter: drop-shadow(2px 4px 8px white) invert(100%);
   transition: filter 0.4s linear;
 }
