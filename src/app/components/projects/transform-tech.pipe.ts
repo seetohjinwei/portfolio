@@ -5,8 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TransformTechPipe implements PipeTransform {
   // use Pure Pipe to prevent re-computing on every re-render
-  transform(tech: string[]): string {
-    const prefix: string = 'built with';
+  transform(prefix: string, tech: string[]): string {
     const length: number = tech.length;
     if (length == 1) {
       return `${prefix} ${tech[0]}`;
