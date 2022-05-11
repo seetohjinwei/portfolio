@@ -14,6 +14,7 @@ div#scroller {
 }
 
 img.up-arrow {
+  filter: drop-shadow(2px 4px 8px grey);
   height: 3em;
   opacity: 0.7;
   transition: filter 0.4s linear;
@@ -25,6 +26,6 @@ img.up-arrow:hover {
 }
 
 img.up-arrow-inverted {
-  filter: invert(100%);
+  filter: invert(100%) drop-shadow(2px 4px 8px white);
   transition: filter 0.4s linear;
 }
