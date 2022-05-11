@@ -9,10 +9,10 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'OrgaNiUS (WIP)',
+    name: 'OrgaNiUS',
     technologies: ['React', 'Go', 'Telegram API'],
     description:
-      'Project Management application that has web and telegram interfaces designed for managing both group and individual projects. Frontend designed with React, backend supported with Go.',
+      '(WIP) Project Management application that has web and telegram interfaces designed for managing both group and individual projects. Frontend designed with React, backend supported with Go.',
     coDevelopers: ['Saraan'],
   },
   {
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     website: 'https://jinwei-task-manager.herokuapp.com/',
   },
   {
-    name: 'Portfolio Website (this!)',
+    name: 'Portfolio Website',
     technologies: ['Angular'],
     description:
       'Personal portfolio website built with Angular, the website you are currently on!',
@@ -32,17 +32,17 @@ export const projects: Project[] = [
     website: 'https://seetohjinwei.github.io/portfolio/',
   },
   {
-    name: 'Retyper (WIP)',
+    name: 'Retyper',
     technologies: ['React', 'Firebase'],
     description:
-      'Typing game built with React that stores game scores through Firebase.',
+      '(WIP) Typing game built with React that stores game scores through Firebase.',
     // repo: 'https://github.com/seetohjinwei/Retyper',
   },
   {
     name: 'peCar-Parker',
     technologies: ['React'],
     description:
-      'Our website helps users find parking spots in their area, with a simple search.',
+      'Website that helps users find parking spots in their area, with a simple search.',
     coDevelopers: ['Dexter', 'Humphrey', 'Jishnu'],
     repo: 'https://github.com/ParknRoll/peCar-Parker',
     website: 'https://parknroll.github.io/peCar-Parker/',

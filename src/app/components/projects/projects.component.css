@@ -12,14 +12,8 @@ div.item * {
   margin-bottom: 0.4vw;
 }
 
-div.item h1 {
-  font-weight: bold;
-}
-
-div.item p.tech {
-  font-size: 1.3em;
-  font-weight: normal;
-  margin-left: 2em;
+div.item p.title b {
+  font-size: 1.4em;
 }
 
 div.item p {
