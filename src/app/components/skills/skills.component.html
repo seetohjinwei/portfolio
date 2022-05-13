@@ -2,10 +2,10 @@
 <div id="skills" class="section">
   <div class="content">
     <h1 class="section-title">Skills and Technologies</h1>
+    <p>Mouse over the icons!</p>
     <div class="grid">
-      <div class="item" *ngFor="let i of skills">
-        <img alt="{{ i.altText }}" class="logo" src="{{ i.imageLink }}" />
-        <p>{{ i.display }}</p>
+      <div class="center" *ngFor="let s of skills">
+        <app-skill-card [skill]="s"></app-skill-card>
       </div>
     </div>
   </div>

@@ -10,24 +10,7 @@ div.grid {
   row-gap: 1em;
 }
 
-div.item {
-  align-items: center;
+div.center {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-bottom: 3em;
-}
-
-div.item * {
-  margin-bottom: 0;
-}
-
-div.item p {
-  font-size: 1.2em;
-}
-
-div.item img.logo {
-  height: 5em;
-  margin-bottom: 1em;
-  width: 5em;
+  justify-content: center;
 }

@@ -1,0 +1,61 @@
+div.scene {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 8em;
+  margin-bottom: 2em;
+  perspective: 20vw;
+  width: 8em;
+}
+
+div.item {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  width: 100%;
+}
+
+div.card {
+  align-items: center;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+div.card-front {
+  /* required for Firefox to flip the card properly */
+  /* works properly for Chrome/Safari even without this .-. */
+  /* https://stackoverflow.com/questions/9604982/backface-visibility-not-working-properly-in-firefox-works-in-safari */
+  /* there are a few other alternative fixes for this as in the link above */
+  transform: rotateX(0deg);
+}
+
+div.card-back {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+div.is-flipped {
+  transform: rotateY(180deg);
+}
+
+div.item * {
+  margin-bottom: 0;
+}
+
+div.item p {
+  font-size: 1.2em;
+}
+
+div.item img.logo {
+  height: 5em;
+  width: 5em;
+}
+
+/* Great resource for 3D card flipping: https://3dtransforms.desandro.com/card-flip */

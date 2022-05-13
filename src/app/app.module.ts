@@ -11,6 +11,7 @@ import { EducationComponent } from './components/education/education.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SocialComponent } from './components/social/social.component';
 import { TransformTechPipe } from './components/projects/transform-tech.pipe';
@@ -24,6 +25,7 @@ import { TransformTechPipe } from './components/projects/transform-tech.pipe';
     NavbarComponent,
     ProjectsComponent,
     ScrollToTopComponent,
+    SkillCardComponent,
     SkillsComponent,
     SocialComponent,
     TransformTechPipe,
