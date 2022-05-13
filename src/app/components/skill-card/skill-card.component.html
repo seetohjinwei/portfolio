@@ -1,0 +1,14 @@
+<div class="scene">
+  <div
+    class="item"
+    (mouseenter)="isFlipped = true"
+    (mouseleave)="isFlipped = false"
+    [class.is-flipped]="isFlipped"
+  >
+    <div class="card card-front">
+      <img alt="{{ skill.altText }}" class="logo" src="{{ skill.imageLink }}" />
+    </div>
+    <div class="card card-back">{{ "★".repeat(skill.rating) }}</div>
+  </div>
+  <p>{{ skill.display }}</p>
+</div>
