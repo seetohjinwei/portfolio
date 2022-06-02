@@ -26,6 +26,8 @@ export class ProjectsComponent implements OnInit {
       description:
         '(WIP) Project Management application that has web and telegram interfaces designed for managing both group and individual projects. Frontend designed with React, backend supported with Go.',
       coDevelopers: ['Saraan'],
+      repo: 'https://github.com/OrgaNiUS/OrgaNiUS',
+      website: 'https://organius.herokuapp.com/',
     },
     {
       name: 'Task Manager',
@@ -43,13 +45,13 @@ export class ProjectsComponent implements OnInit {
       repo: 'https://github.com/seetohjinwei/portfolio',
       website: 'https://seetohjinwei.github.io/portfolio/',
     },
-    {
-      name: 'Retyper',
-      technologies: ['React', 'Firebase'],
-      description:
-        '(WIP) Typing game built with React that stores game scores through Firebase.',
-      // repo: 'https://github.com/seetohjinwei/Retyper',
-    },
+    // {
+    //   name: 'Retyper',
+    //   technologies: ['React', 'Firebase'],
+    //   description:
+    //     '(WIP) Typing game built with React that stores game scores through Firebase.',
+    //   // repo: 'https://github.com/seetohjinwei/Retyper',
+    // },
     {
       name: 'peCar-Parker',
       technologies: ['React'],
