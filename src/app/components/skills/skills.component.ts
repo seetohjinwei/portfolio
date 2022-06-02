@@ -25,27 +25,6 @@ export class SkillsComponent implements OnInit {
       rating: 'Experienced',
     },
     {
-      display: 'Ruby on Rails',
-      altText: 'Ruby on Rails',
-      imageLink:
-        'https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg',
-      rating: 'Familiar',
-    },
-    {
-      display: 'Go',
-      altText: 'Go Language',
-      imageLink:
-        'https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg',
-      rating: 'Experienced',
-    },
-    {
-      display: 'Angular',
-      altText: 'Angular',
-      imageLink:
-        'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
-      rating: 'Some experience',
-    },
-    {
       display: 'TypeScript/JavaScript',
       altText: 'TypeScript',
       imageLink:
@@ -67,10 +46,38 @@ export class SkillsComponent implements OnInit {
       rating: 'Comfortable',
     },
     {
+      display: 'Go',
+      altText: 'Go Language',
+      imageLink:
+        'https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg',
+      rating: 'Experienced',
+    },
+    {
       display: 'Java',
       altText: 'Java',
       imageLink: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
       rating: 'Experienced',
+    },
+    {
+      display: 'Python',
+      altText: 'Python',
+      imageLink:
+        'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+      rating: 'Experienced',
+    },
+    {
+      display: 'Ruby on Rails',
+      altText: 'Ruby on Rails',
+      imageLink:
+        'https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg',
+      rating: 'Familiar',
+    },
+    {
+      display: 'Angular',
+      altText: 'Angular',
+      imageLink:
+        'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
+      rating: 'Some experience',
     },
   ];
 }
