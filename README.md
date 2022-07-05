@@ -1,5 +1,7 @@
 # Jin Wei's Portfolio Website
 
+Note that this is a toy project and will not be updated from now on.
+
 This is the repository for my portfolio website, built with Angular!
 
 Available [here](https://seetohjinwei.github.io/portfolio/).
